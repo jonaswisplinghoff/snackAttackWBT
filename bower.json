@@ -1,0 +1,7 @@
+{
+	"name": "wbt",
+  	"dependencies": {
+    	"bootstrap": "*",
+    	"fullpage.js": "*"
+  	}
+}

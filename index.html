@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Web-Based-Training</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Fullpage.js -->    
+    <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
+
+    <!-- Own Styles -->    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <ul id="myMenu">
+      <li data-menuanchor="firstPage"><a href="#firstPage" class="btn btn-primary" role="button">Startseite</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage" class="btn btn-primary" role="button">Informativer Text</a></li>
+      <li data-menuanchor="thirdPage"><a href="#thirdPage" class="btn btn-primary" role="button">Quiz</a></li>
+    </ul>
+<>
+    <div id="fullpage">
+
+      <div class="section text-center" data-anchor="firstPage" id="section1">
+        <img src="img/hipsterlogo.png" alt="hipsterlogo">
+        <h1>Wilkommen bei unserem tollen Web-Based-Training!</h1>
+        <p class="lead">Lerne hier, was du so für tolle Sachen machen kannst!</p>
+        <p><button type="button" class="btn btn-lg btn-success" href="#" id="section1button">Los gehts!</button></p>
+      </div>
+
+      <div class="section text-center" data-anchor="secondPage" id="section2">
+        <h1>Blabla</h1>
+        <p class="lead">Hier steht ein wichtiger Inhalt!</p>
+        <p><button type="button" class="btn btn-lg btn-success" href="#" id="section2button">Ok weiter!</button></p>
+      </div>
+
+      <div class="section" data-anchor="thirdPage" id="section3">
+
+          <div class="slide">
+            <div class="container">
+              <form role="form" class="form-inline">
+                <div class="form-group">
+                  <label for="textfield">Beantworte irgendeine Frage:</label>
+                  <input type="text" class="form-control" placeholder="Text input" id="textfield">
+                  <button type="submit" class="btn btn-primary" id="section3button">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="container">
+              <span class="text-left">Das ist ein spannender Text!</span>
+            </div>
+          </div>
+      
+
+      </div>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
+    <script type="text/javascript" src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
