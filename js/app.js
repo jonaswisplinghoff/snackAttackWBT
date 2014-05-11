@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('#fullpage').fullpage(
     	{
-        anchors: ['firstPage', 'secondPage', 'thirdPage'],
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'credits'],
         verticalCentered: true,
         resize : true,
-        slidesColor : ['#ccc', '#fff', '#ccc'],
+        slidesColor : ['', '#ccc', '#fff', '#ccc'],
         scrollingSpeed: 700,
         easing: 'easeInQuart',
         navigation: true,

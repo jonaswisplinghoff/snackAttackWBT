@@ -34,14 +34,15 @@
 
   <body>
     <ul id="myMenu">
-      <li data-menuanchor="firstPage"><a href="#firstPage" class="btn btn-primary" role="button">Startseite</a></li>
-      <li data-menuanchor="secondPage"><a href="#secondPage" class="btn btn-primary" role="button">Informativer Text</a></li>
-      <li data-menuanchor="thirdPage"><a href="#thirdPage" class="btn btn-primary" role="button">Quiz</a></li>
+      <li data-menuanchor="firstPage"><a href="#firstPage" class="btn btn-default btn-sm" role="button">Startseite</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage" class="btn btn-default btn-sm" role="button">Informativer Text</a></li>
+      <li data-menuanchor="thirdPage"><a href="#thirdPage" class="btn btn-default btn-sm" role="button">Quiz</a></li>
+      <li data-menuanchor="credits"><a href="#credits" class="btn btn-default btn-sm" role="button">Credits</a></li>
     </ul>
 
     <div id="fullpage">
 
-      <div class="section text-center" data-anchor="firstPage" id="section1">
+      <div class="section text-center" data-anchor="firstPage" id="section1" style="background: url('img/background_section1.png') repeat;">
         <img src="img/hipsterlogo.png" alt="hipsterlogo">
         <h1>Wilkommen bei unserem tollen Web-Based-Training!</h1>
         <p class="lead">Lerne hier, was du so für tolle Sachen machen kannst!</p>
@@ -55,7 +56,6 @@
       </div>
 
       <div class="section" data-anchor="thirdPage" id="section3">
-
           <div class="slide">
             <div class="container">
               <form role="form" class="form-inline">
@@ -73,9 +73,14 @@
               <span class="text-left">Das ist ein spannender Text!</span>
             </div>
           </div>
-      
-
       </div>
+      
+      <div class="section text-center" data-anchor="credits" id="creditsSection">
+      	<h1>Credits</h1>
+      	<p class="lead"> Proudly made with the help of <a href="http://getbootstrap.com">Twitter Bootstrap</a>, <a href="https://github.com/alvarotrigo/fullPage.js">FullPage.js</a>, ...</p>
+      	<p class="lead"> Backgrounds from <a href="http://subtlepatterns.com">SubtlePatterns</a></p>
+      </div>
+      
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
