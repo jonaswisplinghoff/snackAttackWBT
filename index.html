@@ -41,8 +41,8 @@
     <ul id="myMenu">
       <li data-menuanchor="start"><a href="#start" class="btn btn-default btn-sm" role="button">Startseite</a></li>
       <li data-menuanchor="basics"><a href="#basics" class="btn btn-default btn-sm" role="button">Basics</a></li>
-      <li data-menuanchor="rezepte"><a href="#rezepte" class="btn btn-default btn-sm" role="button">Rezepte</a></li>
       <li data-menuanchor="test"><a href="#test" class="btn btn-default btn-sm" role="button">Teste dein Wissen</a></li>
+      <li data-menuanchor="rezepte"><a href="#rezepte" class="btn btn-default btn-sm" role="button">Rezepte</a></li>
       <li data-menuanchor="credits"><a href="#credits" class="btn btn-default btn-sm" role="button">Credits</a></li>
     </ul>
 
@@ -61,27 +61,8 @@
         <p><button type="button" class="btn btn-lg btn-default" href="#" id="section2button">Ok weiter!</button></p>
       </div>
 
-      <div class="section" data-anchor="rezepte" id="rezepteSection">
-          <div class="slide">
-            <div class="container">
-              <form role="form" class="form-inline">
-                <div class="form-group">
-                  <label for="textfield">Beantworte irgendeine Frage:</label>
-                  <input type="text" class="form-control" placeholder="Text input" id="textfield">
-                  <button type="submit" class="btn btn-primary" id="section3button">Submit</button>
-                </div>
-              </form>
-            </div>
-          </div>
 
-          <div class="slide">
-            <div class="container">
-              <span class="text-left">Das ist ein spannender Text!</span>
-            </div>
-          </div>
-      </div>
-
-        <div class="section" data-anchor="test" id="slickQuiz">
+        <div class="section text-center" data-anchor="test" id="slickQuiz">
             <h1 class="quizName"></h1>
 
             <div class="quizArea">
@@ -101,6 +82,26 @@
 
                 <div class="quizResultsCopy">
                     <!-- where the quiz result copy goes -->
+                </div>
+            </div>
+        </div>
+
+        <div class="section" data-anchor="rezepte" id="rezepteSection">
+            <div class="slide">
+                <div class="container">
+                    <form role="form" class="form-inline">
+                        <div class="form-group">
+                            <label for="textfield">Beantworte irgendeine Frage:</label>
+                            <input type="text" class="form-control" placeholder="Text input" id="textfield">
+                            <button type="submit" class="btn btn-primary" id="section3button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+                    <span class="text-left">Das ist ein spannender Text!</span>
                 </div>
             </div>
         </div>
