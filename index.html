@@ -22,6 +22,11 @@
     <!-- Own Styles -->    
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+      <!-- SlickQuiz -->
+      <!--https://github.com/jewlofthelotus/SlickQuiz-->
+      <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
+
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -37,13 +42,14 @@
       <li data-menuanchor="start"><a href="#start" class="btn btn-default btn-sm" role="button">Startseite</a></li>
       <li data-menuanchor="basics"><a href="#basics" class="btn btn-default btn-sm" role="button">Basics</a></li>
       <li data-menuanchor="rezepte"><a href="#rezepte" class="btn btn-default btn-sm" role="button">Rezepte</a></li>
+      <li data-menuanchor="test"><a href="#test" class="btn btn-default btn-sm" role="button">Teste dein Wissen</a></li>
       <li data-menuanchor="credits"><a href="#credits" class="btn btn-default btn-sm" role="button">Credits</a></li>
     </ul>
 
     <div id="fullpage">
 
       <div class="section text-center" data-anchor="start" id="startSection" style="background: url('img/background_section1.png') repeat;">
-        <img src="img/hipsterlogo.png" alt="hipsterlogo">
+        <img src="img/logo.png" alt="hipsterlogo">
         <h1>Wilkommen bei unserem tollen Web-Based-Training!</h1>
         <p class="lead">Lerne hier, was du so für tolle Sachen machen kannst!</p>
         <p><button type="button" class="btn btn-lg btn-default" href="#" id="section1button">Los gehts!</button></p>
@@ -74,6 +80,30 @@
             </div>
           </div>
       </div>
+
+        <div class="section" data-anchor="test" id="slickQuiz">
+            <h1 class="quizName"></h1>
+
+            <div class="quizArea">
+                <div class="quizHeader">
+                    <!-- where the quiz main copy goes -->
+
+                    <a class="button startQuiz" href="#">Get Started!</a>
+                </div>
+
+                <!-- where the quiz gets built -->
+            </div>
+
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
+            </div>
+        </div>
       
       <div class="section text-center" data-anchor="credits" id="creditsSection">
       	<h1>Credits</h1>
@@ -94,6 +124,10 @@
     <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
 
     <script type="text/javascript" src="js/app.js"></script>
+
+    <script src="js/slickQuiz-config.js"></script>
+    <script src="js/slickQuiz.js"></script>
+    <script src="js/master.js"></script>
 
   </body>
 </html>

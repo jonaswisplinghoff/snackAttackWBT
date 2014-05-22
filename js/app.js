@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage(
     	{
-        anchors: ['start', 'basics', 'rezepte', 'credits'],
+        anchors: ['start', 'basics', 'rezepte', 'test', 'credits'],
         verticalCentered: true,
         resize : true,
         slidesColor : ['', '#ccc', '#ccc', '#ccc'],
