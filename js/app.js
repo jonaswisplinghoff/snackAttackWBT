@@ -11,7 +11,7 @@ $(document).ready(function() {
         navigationPosition: 'right',
         loopBottom: false,
         loopTop: false,
-        menu: 'myMenu',
+        menu: '#myMenu',
         loopHorizontal: true,
         autoScrolling: true,
         scrollOverflow: false,

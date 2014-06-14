@@ -27,13 +27,6 @@ body {
 	left: 50px;
 }
 
-
-
-#myMenu li {
-    display: inline-block;
-    margin: 2px 0 2px 2px;
-}
-
 .button {
     margin: 0 auto;
     width: auto;
