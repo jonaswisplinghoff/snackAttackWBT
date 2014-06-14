@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Web-Based-Training</title>
+    <title>Snack Attack Studentenfutter</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,9 +22,9 @@
     <!-- Own Styles -->    
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-      <!-- SlickQuiz -->
-      <!--https://github.com/jewlofthelotus/SlickQuiz-->
-      <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- SlickQuiz -->
+    <!--https://github.com/jewlofthelotus/SlickQuiz-->
+    <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -38,26 +38,31 @@
   </head>
 
   <body>
-    <ul id="myMenu">
-      <li data-menuanchor="start"><a href="#start" class="btn btn-default btn-sm" role="button">Startseite</a></li>
-      <li data-menuanchor="basics"><a href="#basics" class="btn btn-default btn-sm" role="button">Basics</a></li>
-      <li data-menuanchor="lebensmittel"><a href="#lebensmittel" class="btn btn-default btn-sm" role="button">Lebensmittel</a></li>
-      <li data-menuanchor="test"><a href="#test" class="btn btn-default btn-sm" role="button">Teste dein Wissen</a></li>
-      <li data-menuanchor="rezepte"><a href="#rezepte" class="btn btn-default btn-sm" role="button">Rezepte</a></li>
-      <li data-menuanchor="credits"><a href="#credits" class="btn btn-default btn-sm" role="button">Credits</a></li>
-    </ul>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    <ul id="myMenu" class="nav navbar-nav">
+	      <li data-menuanchor="start"><a href="#start" class="" role="button">Startseite</a></li>
+	      <li data-menuanchor="basics"><a href="#basics" class="" role="button">Basics</a></li>
+	      <li data-menuanchor="lebensmittel"><a href="#lebensmittel" class="" role="button">Lebensmittel</a></li>
+	      <li data-menuanchor="test"><a href="#test" class="" role="button">Teste dein Wissen</a></li>
+	      <li data-menuanchor="rezepte"><a href="#rezepte" class="" role="button">Rezepte</a></li>
+	      <li data-menuanchor="credits"><a href="#credits" class="" role="button">Credits</a></li>
+	    </ul>
+	  </div>
+  </div>
+  
+  
 
     <div id="fullpage">
 
-      <div class="section text-center" data-anchor="start" id="startSection" style="background: url('img/background_section1.png') repeat;">
+      <div class="section text-center" data-anchor="start" id="startSection" style="background: #fff;">
         <img src="img/logo.png" alt="hipsterlogo">
-        <h1>Wilkommen bei unserem tollen Web-Based-Training!</h1>
-        <p class="lead">Lerne hier, was du so für tolle Sachen machen kannst!</p>
-        <p><button type="button" class="btn btn-lg btn-default" href="#" id="section1button">Los gehts!</button></p>
+        <h1>Willkommen bei Snack Attack!</h1>
+        <div class="col-md-6 col-md-offset-3">Hier erfährst du, wie du leckere und günstige Snacks schnell und einfach zubereitest. Außerdem werden dir hier grundlegende Kenntnisse über verwendete Lebensmittel und Zubereitungsverfahren vermittelt, um deine krassen Cooking Skills zu entwickeln. Wir alle lieben Fastfood, aber muss ein Cheeseburger wirklich so fettig und matschig sein? Und muss immer alles Fleisch drauf haben?
+Mit unseren Rezepten hast du garantiert leckere, frische und tolle Snacks für jede Tageszeit, die einfach zu reproduzieren sind.</div>
       </div>
 
       <div class="section" data-anchor="basics" id="basicsSection"  style="background: url('img/basics_bg.jpg'); background-size: 100%; -webkit-background-size: 100%;">
-
           <div class="slide">
               <div class="container">
                   <div class="templateMainHeadline">

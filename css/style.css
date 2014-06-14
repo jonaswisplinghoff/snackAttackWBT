@@ -1,3 +1,24 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+
 .controlArrow.next{
 	right: 50px;
 }
@@ -6,16 +27,7 @@
 	left: 50px;
 }
 
-#myMenu{
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 40px;
-	z-index: 70;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-}
+
 
 #myMenu li {
     display: inline-block;
@@ -121,21 +133,13 @@ ul.responses li.correct p span {
 }
 
 .templateMainHeadline{
-    height: 100px;
-    margin-left: -100px;
-    margin-right: -100px;
-
+    
     background-color: #ffffff;
     border: 1px solid;
     -moz-border-radius: 15px;
     border-radius: 15px;
     opacity: 0.95;
     text-align: center;
-}
-.bla{
-
-    padding-bottom: 500px;
-
 }
 
 .templateHeadline{
