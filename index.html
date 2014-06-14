@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,178 +8,181 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Snack Attack Studentenfutter</title><!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"><!-- Custom styles for this template -->
-    <link href="css/jumbotron-narrow.css" rel="stylesheet"><!-- Fullpage.js -->
-    <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css"><!-- Own Styles -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"><!-- SlickQuiz -->
+    <title>Snack Attack Studentenfutter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Fullpage.js -->    
+    <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
+
+    <!-- Own Styles -->    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- SlickQuiz -->
     <!--https://github.com/jewlofthelotus/SlickQuiz-->
     <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/master.css" media="screen" rel="stylesheet" type="text/css"><!-- Just for debugging purposes. Don't actually copy this line! -->
+    <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
 
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <ul id="myMenu" class="nav navbar-nav">
-                <li data-menuanchor="start" class="active">
-                    <a href="#start">Startseite</a>
-                </li>
-
-                <li data-menuanchor="basics">
-                    <a href="#basics">Basics</a>
-                </li>
-
-                <li data-menuanchor="lebensmittel">
-                    <a href="#lebensmittel">Lebensmittel</a>
-                </li>
-
-                <li data-menuanchor="test">
-                    <a href="#test">Teste dein Wissen</a>
-                </li>
-
-                <li data-menuanchor="rezepte">
-                    <a href="#rezepte">Rezepte</a>
-                </li>
-
-                <li data-menuanchor="credits">
-                    <a href="#credits">Credits</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    <ul id="myMenu" class="nav navbar-nav">
+	      <li data-menuanchor="start" class="active"><a href="#start">Startseite</a></li>
+	      <li data-menuanchor="basics"><a href="#basics">Basics</a></li>
+	      <li data-menuanchor="lebensmittel"><a href="#lebensmittel">Lebensmittel</a></li>
+	      <li data-menuanchor="test"><a href="#test">Teste dein Wissen</a></li>
+	      <li data-menuanchor="rezepte"><a href="#rezepte">Rezepte</a></li>
+	      <li data-menuanchor="credits"><a href="#credits">Credits</a></li>
+	    </ul>
+	  </div>
+  </div>
+  
+  
 
     <div id="fullpage">
-        <div class="section" data-anchor="start" id="startSection" style="background: #fff;">
-            <img src="img/logo.png" alt="hipsterlogo" class="img-responsive center-block">
 
-            <h1 class="text-center">Willkommen bei Snack Attack!</h1>
+      <div class="section" data-anchor="start" id="startSection" style="background: #fff;">
+        
+        <img src="img/logo.png" alt="hipsterlogo" class="img-responsive center-block">
+        <h1 class="text-center">Willkommen bei Snack Attack!</h1>
+        <div class="col-md-6 col-md-offset-3 text-center">
+        Hier erfährst du, wie du leckere und günstige Snacks schnell und einfach zubereitest. Außerdem werden dir hier grundlegende Kenntnisse über verwendete Lebensmittel und Zubereitungsverfahren vermittelt, um deine krassen Cooking Skills zu entwickeln. Wir alle lieben Fastfood, aber muss ein Cheeseburger wirklich so fettig und matschig sein? Und muss immer alles Fleisch drauf haben?
+Mit unseren Rezepten hast du garantiert leckere, frische und tolle Snacks für jede Tageszeit, die einfach zu reproduzieren sind.</div>
+      </div>
 
-            <div class="col-md-6 col-md-offset-3 text-center">
-                Hier erfährst du, wie du leckere und günstige Snacks schnell und einfach zubereitest. Außerdem werden dir hier grundlegende Kenntnisse über verwendete Lebensmittel und Zubereitungsverfahren vermittelt, um deine krassen Cooking Skills zu entwickeln. Wir alle lieben Fastfood, aber muss ein Cheeseburger wirklich so fettig und matschig sein? Und muss immer alles Fleisch drauf haben? Mit unseren Rezepten hast du garantiert leckere, frische und tolle Snacks für jede Tageszeit, die einfach zu reproduzieren sind.
-            </div>
-        </div>
-
-        <div class="section" data-anchor="basics" id="basicsSection" style="background: url('img/basics_bg.jpg'); background-size: 100%; -webkit-background-size: 100%;">
-            <div class="slide">
-                <div class="container">
-                    <h1>Basics</h1>
-
-                    <p class="lead">Hier lernst du, verschiedene Techniken die bei der Verarbeitung von Nahrungsmitteln hilfreich sind.</p>
-                </div>
-            </div>
-
-            <div class="slide">
-                <div class="container">
-                    <h2>Gemüse schneiden</h2>
-
-                    <div class="col-md-8">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    </div><iframe class="col-md-4" src="http://www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
+      <div class="section" data-anchor="basics" id="basicsSection"  style="background: url('img/basics_bg.jpg'); background-size: 100%; -webkit-background-size: 100%;">
+          <div class="slide">
+              <div class="container">
+                  <h1>Basics</h1>
+                  <p class="lead" >Hier lernst du, verschiedene Techniken die bei der Verarbeitung von Nahrungsmitteln hilfreich sind.</p>
+              </div>
+          </div>
+          <div class="slide">
+              <div class="container">
+              	<h2>Gemüse schneiden</h2>
+								<div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+              <iframe class="col-md-4" src="http://www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
         </div>
 
         <div class="section" data-anchor="lebensmittel" id="lebensmittelSection" style="background: url('img/lebensmittel_bg.jpg'); background-size: 100%; -webkit-background-size: 100%;">
             <div class="slide">
                 <div class="container">
-                    <h1>Lebensmittel</h1>
-
-                    <p class="lead">Hier lernst du die verschiedenen Eigenschaften von bestimmten Lebensmitteln kennen.</p>
+                      <h1>Lebensmittel</h1>
+                      <p class="lead" >Hier lernst du die verschiedenen Eigenschaften von bestimmten Lebensmitteln kennen.</p>
                 </div>
             </div>
-
             <div class="slide">
                 <div class="container">
-                    <h2>Avocado</h2>
-
-                    <div class="col-md-8">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    </div><iframe class="col-md-4" src="http://www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen=""></iframe>
+                	<h2>Avocado</h2>
+                  <div class="col-md-8">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                    </div>
+                    <iframe class="col-md-4" src="http://www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
+
         </div>
 
+
         <div class="section" data-anchor="test" id="slickQuiz" style="background: url('img/test_bg.png'); background-size: 100%; -webkit-background-size: 100%;">
-            <div class="slide">
-                <div class="container">
-                    <h1>Test</h1>
-
-                    <p class="lead">Teste dein Wissen.</p>
-                </div>
-            </div>
 
             <div class="slide">
                 <div class="container">
-                    <h1 class="quizName"></h1>
-
-                    <div class="quizArea">
-                        <div class="quizHeader">
-                            <!-- where the quiz main copy goes -->
-                            <a class="button startQuiz" href="#">Get Started!</a>
-                        </div><!-- where the quiz gets built -->
-                    </div>
-
-                    <div class="quizResults">
-                        <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
-
-                        <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
-                        <div class="quizResultsCopy">
-                            <!-- where the quiz result copy goes -->
-                        </div>
-                    </div>
+                  <h1>Test</h1>
+                  <p class="lead" >Teste dein Wissen.</p>
                 </div>
             </div>
+            <div class="slide">
+                <div class="container">
+	                  <h1 class="quizName"></h1>
+	
+	                  <div class="quizArea">
+	                      <div class="quizHeader">
+	                          <!-- where the quiz main copy goes -->
+	
+	                          <a class="button startQuiz" href="#">Get Started!</a>
+	                      </div>
+	
+	                      <!-- where the quiz gets built -->
+	                  </div>
+	
+	                  <div class="quizResults">
+	                      <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+	
+	                      <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+	
+	                      <div class="quizResultsCopy">
+	                          <!-- where the quiz result copy goes -->
+	                      </div>
+	                  </div>
+                </div>
+            </div>
+
+
         </div>
 
         <div class="section" data-anchor="rezepte" id="rezepteSection" style="background: url('img/rezept_bg.jpg'); background-size: 100%; -webkit-background-size: 100%;">
             <div class="slide">
                 <div class="container">
-                    <h1>Rezepte</h1>
-
-                    <p class="lead">Hier lernst du spannende Rezepte kennen.</p>
+                	<h1>Rezepte</h1>
+                  <p class="lead" >Hier lernst du spannende Rezepte kennen.</p>
                 </div>
             </div>
-
             <div class="slide">
-                <div class="container">
-                    <h2>Veggie-Burger</h2>
-
-                    <div class="col-md-8">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    </div><iframe class="col-md-4" src="//www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen=""></iframe>
+              <div class="container">
+                <h2>Veggie-Burger</h2>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+                <iframe class="col-md-4" src="//www.youtube.com/embed/cgcnJXGLSSk" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
+      
+      <div class="section" data-anchor="credits" id="creditsSection">
+      	<div class="container">
+	      	<h1>Credits</h1>
+	      	<p> Proudly made with the help of <a href="http://getbootstrap.com">Twitter Bootstrap</a>, <a href="https://github.com/alvarotrigo/fullPage.js">FullPage.js</a>, ...</p>
+	      	<p> Backgrounds from <a href="http://subtlepatterns.com">SubtlePatterns</a></p>
+      	</div>
+      </div>
+      
+  </div>
 
-        <div class="section" data-anchor="credits" id="creditsSection">
-            <div class="container">
-                <h1>Credits</h1>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
 
-                <p>Proudly made with the help of <a href="http://getbootstrap.com">Twitter Bootstrap</a>, <a href="https://github.com/alvarotrigo/fullPage.js">FullPage.js</a>, ...</p>
+    <!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
+    <script type="text/javascript" src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
 
-                <p>Backgrounds from <a href="http://subtlepatterns.com">SubtlePatterns</a></p>
-            </div>
-        </div>
-    </div><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-</script> <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js">
-</script> <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <script src="bower_components/bootstrap/js/bootstrap.min.js">
-</script> <!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
-     <script type="text/javascript" src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js">
-</script> <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js">
-</script> <script type="text/javascript" src="js/app.js">
-</script> <script src="js/slickQuiz-config.js">
-</script> <script src="js/slickQuiz.js">
-</script> <script src="js/master.js">
-</script>
-</body>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script src="js/slickQuiz-config.js"></script>
+    <script src="js/slickQuiz.js"></script>
+    <script src="js/master.js"></script>
+
+  </body>
 </html>
