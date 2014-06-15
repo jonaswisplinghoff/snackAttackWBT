@@ -33,6 +33,8 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
     });
     
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+	    heightStyle: "content"
+    });
     
 });

@@ -2,6 +2,7 @@
 	"name": "wbt",
   	"dependencies": {
     	"bootstrap": "*",
-    	"fullpage.js": "*"
+    	"fullpage.js": "*",
+    	"lightbox":"*"
   	}
 }

@@ -18,6 +18,12 @@
 
     <!-- Fullpage.js -->    
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
+    
+    <!--jQuery UI-->
+    <link rel="stylesheet" type="text/css" href="bower_components/jquery.ui/themes/base/jquery.ui.all.css" />
+    
+    <!--Lightbox-->
+    <link rel="stylesheet" type="text/css" href="bower_components/lightbox/css/lightbox.css" />
 
     <!-- Own Styles -->    
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -151,13 +157,16 @@ Mit unseren Rezepten hast du garantiert leckere, frische und tolle Snacks für j
               <div class="container">
                 <h2>Antipasti-Burger</h2>
                 
-                <p class="col-md-12">An sonnigen Tagen sehnen wir uns alle nach Meer und gutem Essen. Doch hier ist die Lösung: Unser Anti Pasti Burger. Für ein tolles Gefühl im Bauch!</p>
+                <p class="col-md-12">An sonnigen Tagen sehnen wir uns alle nach Meer und gutem Essen. Doch hier ist die Lösung: Unser Antipasti-Burger. Für ein tolles Gefühl im Bauch!</p>
                 
                 <div class="col-md-8">
-                	<div id="accordion">
-	                	<h3>Zutaten</h3>
+                	<div id="accordion" class="ui-accordion ui-widget ui-helper-reset">
+	                	<h3>
+	                		<span class=""></span>
+	                		Zutaten
+	                	</h3>
 	                	<div>
-		                	<ul>
+		                	<ul class="list-unstyled">
 		                		<li>Burger Brötchen (alternativ auch Brötchen vom Frühstück)</li>
 								<li>1 Zucchini</li>
 								<li>1 Aubergine</li>
@@ -192,7 +201,8 @@ Burgerbrötchen, Fetamasse, Gegrillte Zucchini und Aubergine, Zwiebelring, Tomat
                 	
                 		                
                 </div>
-                <img class="col-md-4" src="img/antipastiburger.jpg" alt="Bild des Antipastiburgers">
+                <a href="img/antipastiburger.jpg" data-lightbox="Antipasti-Burger" data-title="Unser Antipasti-Burger"><img class="col-md-4" src="img/antipastiburger.jpg" alt="Bild des Antipastiburgers"></a>
+                <a href="img/antipastiburger2.jpg" data-lightbox="Antipasti-Burger" data-title="Unser Antipasti-Burger die Zweite"><img class="col-md-4" src="img/antipastiburger2.jpg" alt="Bild des zweiten Antipastiburgers"></a>
                 </div>
             </div>
         </div>
@@ -216,6 +226,8 @@ Burgerbrötchen, Fetamasse, Gegrillte Zucchini und Aubergine, Zwiebelring, Tomat
     <!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
     <script type="text/javascript" src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+    
+    <script type="text/javascript" src="bower_components/lightbox/js/lightbox.min.js"></script>
 
     <script type="text/javascript" src="js/app.js"></script>
 
