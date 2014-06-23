@@ -33,8 +33,44 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
     });
     
+    $.extend({
+	  jYoutube: function( url, size ){
+	    if(url === null){ return ""; }
+	
+	    size = (size === null) ? "big" : size;
+	    var vid;
+	    var results;
+	
+	    results = url.match("[\\?&]v=([^&#]*)");
+	
+	    vid = ( results === null ) ? url : results[1];
+	
+	    if(size == "small"){
+	      return "http://img.youtube.com/vi/"+vid+"/2.jpg";
+	    }else {
+	      return "http://img.youtube.com/vi/"+vid+"/0.jpg";
+	    }
+	  }
+	});
+    
     $( "#accordion" ).accordion({
 	    heightStyle: "content"
     });
+    
+    $('a.gallery').colorbox({ opacity:0.9 });
+    
+    $('.youtube').colorbox({iframe: true, width: 640, height: 390, href:function(){
+        var videoId = new RegExp('[\\?&]v=([^&#]*)').exec(this.href);
+        if (videoId && videoId[1]) {
+            return 'http://youtube.com/embed/'+videoId[1]+'?rel=0&wmode=transparent';
+        }
+    }});
+    
+    $('.youtube').each(function(){
+	    var url = $(this).attr('href');
+	    url = $.jYoutube(url);
+	    console.log(url);
+	    $(this).html("<img class='col-md-4' src='" + url + "'>");
+    })
     
 });

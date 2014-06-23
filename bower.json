@@ -3,6 +3,7 @@
   	"dependencies": {
     	"bootstrap": "*",
     	"fullpage.js": "*",
-    	"lightbox":"*"
+    	"jquery-colorbox":"*"
+    	
   	}
 }
