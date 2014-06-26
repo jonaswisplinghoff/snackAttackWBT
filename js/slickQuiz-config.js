@@ -5,68 +5,68 @@
 var quizJSON = {
     "info": {
         "name":    "Teste dein Wissen!",
-        "main":    "<p>Teste ob du in den bisherigen Schritten genug gelernt hast, um die Rezepte freischalten zu können!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "main":    "<p>Teste ob du auf den bisherigen Seiten etwas gelernt hast!</p>",
+        "results": "",
+        "level1":  "Snack-Chef",
+        "level2":  "Snack-Profi",
+        "level3":  "Snack-Amateur",
+        "level4":  "Küchenhilfe",
+        "level5":  "Fastfood-Maniac" // no comma here
     },
-    "questions": [
+        "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Welches Öl wird besonders in der mediterranen Küche verwendet?",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Palmöl",        "correct": false},
+                {"option": "Babyöl",        "correct": false},
+                {"option": "Olivenöl",      "correct": true},
+                {"option": "Rapsöl",        "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span> Richtig! </span> Olivenöl sollte in jeder Küche vorhanden sein.</p>",
+            "incorrect": "<p><span>Sorry, leider falsch! </span> Überleg nochmal!</p>" // no comma here
         },
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+        { // Question 2 - Multiple Choice, Single True Answer
+            "q": "Was gehört nicht zur Kategorie der Kräuter?",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "Petersilie",               "correct": false},
+                {"option": "Koriander",                "correct": false},
+                {"option": "Dill",                     "correct": false},
+                {"option": "Muskat",					"correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>Nice!</span> War wohl zu einfach.</p>",
+            "incorrect": "<p><span>Hmmm.Nö.</span> Kräuter sind die Grundlage vieler Gerichte.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "Was gehört in eine klassische Guacamole? Wähle alle zutreffenden.",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Avocado",                      "correct": true},
+                {"option": "Saure Sahne",                  "correct": false},
+                {"option": "Zitrone",                      "correct": true},
+                {"option": "Pfeffer und Salz",             "correct": true} // no comma here
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "correct": "<p><span>Brilliant!</span> Du scheinst aufgepasst zu haben.</p>",
+            "incorrect": "<p><span>Nicht ganz.</span> Denk nochmal nach, koch dir was Nettes & versuch es nochmal.</p>" // no comma here
         },
-        { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+        { // Question 4 - Multiple Choice, Single True Answer
+            "q": "Mit welcher Technik bleibt grünes Gemüse auch nach der Zubereitung noch leuchtend grün?",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Braten",    "correct": false},
+                {"option": "Kochen und in Eiswasser abschrecken",     "correct": true},
+                {"option": "Backen",      "correct": false},
+                {"option": "Dampfgaren",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>Wow! Sehr gut!</span> Fast geschafft!</p>",
+            "incorrect": "<p><span>Falsch.</span> Zurück an den Herd und nochmal üben.</p>" // no comma here
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "Hast du Hunger und Lust auf unsere Rezepte?",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "Ja!",    "correct": true},
+                {"option": "Nein! =(",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
+            "correct": "<p><span>Geschafft!</span> Los gehts! Einfach und lecker essen ist so einfach!</p>",
+            "incorrect": "<p><span>HEY!</span>Geh nochmal die Rezepte durch und lass dich inspirieren!</p>" // no comma here
         } // no comma here
     ]
 };

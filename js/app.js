@@ -70,7 +70,9 @@ $(document).ready(function() {
 	    var url = $(this).attr('href');
 	    url = $.jYoutube(url);
 	    console.log(url);
-	    $(this).html("<img class='col-md-4' src='" + url + "'>");
+	    $(this).html("<img class='col-md-4' src='" + url + "'><span class='playButton col-md-4 glyphicon glyphicon-play-circle'></span>");
     })
     
+    
+        
 });

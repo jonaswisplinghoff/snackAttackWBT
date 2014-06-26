@@ -143,3 +143,12 @@ ul.responses li.correct p span {
     margin-top: 20px;
 }
 
+.playButton {
+    text-align: center;
+    position: relative;
+    margin-top: -90px;
+    font-size: 200%;
+    color: red;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+}
