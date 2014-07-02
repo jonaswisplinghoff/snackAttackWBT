@@ -20,7 +20,7 @@
                 checkAnswerText:  'Überprüfen!',
                 nextQuestionText: 'N&auml;chste &raquo;',
                 backButtonText: '',
-                tryAgainText: '',
+                tryAgainText: 'Nochmal!',
                 questionCountText: 'Frage %current von %total',
                 preventUnansweredText: 'Du musst mindestens eine Antwort auswählen!',
                 questionTemplateText:  '%count. %text',
@@ -29,12 +29,12 @@
                 skipStartButton: false,
                 numberOfQuestions: null,
                 randomSortQuestions: false,
-                randomSortAnswers: false,
-                preventUnanswered: false,
+                randomSortAnswers: true,
+                preventUnanswered: true,
                 perQuestionResponseMessaging: true,
                 completionResponseMessaging: false,
                 displayQuestionCount: true,   // Deprecate?
-                displayQuestionNumber: true,  // Deprecate?
+                displayQuestionNumber: false,  // Deprecate?
                 animationCallbacks: { // only for the methods that have jQuery animations offering callback
                 	setupQuiz: function () {},
                 	startQuiz: function () {},

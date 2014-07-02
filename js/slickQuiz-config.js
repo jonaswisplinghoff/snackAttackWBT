@@ -23,7 +23,7 @@ var quizJSON = {
                 {"option": "Rapsöl",        "correct": false} // no comma here
             ],
             "correct": "<p><span> Richtig! </span> Olivenöl sollte in jeder Küche vorhanden sein.</p>",
-            "incorrect": "<p><span>Sorry, leider falsch! </span> Überleg nochmal!</p>" // no comma here
+            "incorrect": "<p><span>Sorry, leider falsch! </span></p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Single True Answer
             "q": "Was gehört nicht zur Kategorie der Kräuter?",
@@ -46,7 +46,7 @@ var quizJSON = {
                 {"option": "Pfeffer und Salz",             "correct": true} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> Du scheinst aufgepasst zu haben.</p>",
-            "incorrect": "<p><span>Nicht ganz.</span> Denk nochmal nach, koch dir was Nettes & versuch es nochmal.</p>" // no comma here
+            "incorrect": "<p><span>Nicht ganz.</span> Denk nochmal nach, koch dir was Nettes & versuch es später nochmal.</p>" // no comma here
         },
         { // Question 4 - Multiple Choice, Single True Answer
             "q": "Mit welcher Technik bleibt grünes Gemüse auch nach der Zubereitung noch leuchtend grün?",
