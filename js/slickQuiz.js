@@ -17,12 +17,12 @@
             _element = '#' + $element.attr('id'),
 
             defaults = {
-                checkAnswerText:  'Check My Answer!',
-                nextQuestionText: 'Next &raquo;',
+                checkAnswerText:  'Überprüfen!',
+                nextQuestionText: 'N&auml;chste &raquo;',
                 backButtonText: '',
                 tryAgainText: '',
-                questionCountText: 'Question %current of %total',
-                preventUnansweredText: 'You must select at least one answer.',
+                questionCountText: 'Frage %current von %total',
+                preventUnansweredText: 'Du musst mindestens eine Antwort auswählen!',
                 questionTemplateText:  '%count. %text',
                 scoreTemplateText: '%score / %total',
                 nameTemplateText:  '',
