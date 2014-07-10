@@ -1,19 +1,19 @@
 .controlArrow.next{
 	right: 50px;
-	opacity: 0.5;
-	border-color: transparent transparent transparent #555;
+	opacity: 0.7;
+	border-color: transparent transparent transparent #333;
 }
 .controlArrow.next:hover{
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .controlArrow.prev{
 	left: 50px;
-	opacity: 0.5;
-	border-color: transparent #555 transparent transparent;
+	opacity: 0.7;
+	border-color: transparent #333 transparent transparent;
 }
 .controlArrow.prev:hover{
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .fullPage-tooltip{
